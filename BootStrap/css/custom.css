@@ -1,0 +1,236 @@
+body {
+	background: #2f2f2f;
+	color: #dcdcdc;
+	font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2 {
+	font-weight: bold;
+}
+p {
+	font-size: 16px;
+	color: #dcdcdc;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 87%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  margin-left: 0px;
+  width: 100%;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+.navbar {
+	color: #dcdcdc;
+	margin-bottom: 0;
+}
+.jumbotron {
+	background: #373737;
+	color: #dcdcdc;
+	text-align: center;
+}
+.jumbotron p {
+	color: #dcdcdc;
+	font-size: 26px;
+}
+.navbar-inverse {
+	background: #2f2f2f;
+	border: 0;
+}
+.dropdown-menu {
+	background: #2f2f2f;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #dcdcdc;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	background: #a61e1e;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+	background: #a61e1e;
+}
+.dropdown-menu li a {
+	padding: 10px;
+}
+.btn-primary {
+	color: #dcdcdc;
+	background-color: #850000;
+	border-color: black;
+	margin-bottom: 5px;
+}
+.btn-primary:hover {
+	color: #dcdcdc;
+	background-color: #a61e1e;
+	border-color: #dcdcdc;
+}
+.glyphicon-large {
+	font-size: 50px;
+}
+.call-to-action {
+	text-align: center;
+	color: #dcdcdc;
+}
+.call-to-action p {
+	margin-bottom: 30px;
+	font-family: sans-serif;
+	color: #dcdcdc;
+}
+.navbar-toggle .icon-bar {
+    border:1px solid #dcdcdc;
+}
+.css-typing p {
+  text-align: center;
+  border-right: .15em solid #dcdcdc;
+  font-family: "Montserrat";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(25%);
+}
+.css-typing p:nth-child(1) {
+  width: 33.1em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #dcdcdc;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #dcdcdc;
+  }
+  100% {
+    border: none;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
